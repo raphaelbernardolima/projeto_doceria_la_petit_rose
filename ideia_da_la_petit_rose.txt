@@ -1,0 +1,82 @@
+✅ Estrutura de Site: La Petit Rose - Doceria
+📍 1. Página Inicial (Home)
+Banner de destaque com uma foto linda de doces / macarons / bolos
+
+Chamada de impacto:
+"Encante-se com os sabores artesanais da La Petit Rose 🍓🍰"
+
+Seções principais:
+
+👉 Destaque dos produtos mais vendidos (ex: macarons, bolos, cupcakes)
+
+👉 Depoimentos de clientes (pode fazer fake por enquanto só pra compor visual)
+
+👉 Chamada pra ação: "Peça agora" ou "Ver nosso cardápio"
+
+📍 2. Página Sobre Nós
+Texto contando a história da doceria:
+Exemplo:
+"A La Petit Rose nasceu da paixão por confeitaria artesanal. Cada doce é feito com carinho e ingredientes selecionados."
+
+Fotos da equipe ou da produção (se quiser usar imagens de banco de imagens por enquanto, sem problema)
+
+📍 3. Página Cardápio (Produtos)
+Lista de produtos divididos por categorias:
+
+Categoria	Exemplos
+Bolos	Red Velvet, Naked Cake, Bolo de Chocolate
+Doces Finos	Trufas, Brigadeiros Gourmet
+Macarons	Sabores variados
+Sobremesas no Pote	Cheesecake, Banoffee
+
+👉 Cada produto pode ter: Nome, foto, descrição e preço
+
+📍 4. Página Encomendas / Orçamento
+Formulário simples:
+
+Campo	Exemplo
+Nome	
+Telefone / WhatsApp	
+Produto que deseja	Campo de seleção
+Quantidade	
+Data desejada	
+Mensagem adicional	
+
+👉 Quando a pessoa clicar em "Enviar", pode só exibir uma mensagem de agradecimento por enquanto (se não quiser configurar backend agora).
+
+📍 5. Página Contato
+Endereço físico (se tiver)
+
+Telefone / WhatsApp
+
+Instagram
+
+E-mail
+
+(Se quiser: Embed do Google Maps)
+
+📍 6. Rodapé (Footer)
+Links rápidos (Home, Sobre, Cardápio, Contato)
+
+Redes sociais
+
+Mensagem tipo: "Site desenvolvido por Raphael Bernardo de Melo Lima - Projeto para Portfólio"
+
+🎨 Paleta de Cores Sugerida:
+Nome	Cor	Código
+Rosa Suave	🌸	#FADADD
+Rosa Chá	🌷	#E5989B
+Creme	🍦	#FFF1E6
+Dourado Claro (para detalhes)	✨	#F4C542
+Cinza Rosado (para textos)	🕊️	#6D6875
+
+✅ Tipografia Sugerida:
+Títulos: Playfair Display / Dancing Script / Great Vibes
+
+Texto Corrido: Open Sans / Lato / Roboto
+
+✅ Extras que você pode colocar (se quiser dar aquele toque a mais):
+✔️ Animação leve de fade-in quando a pessoa rolar a página
+✔️ Efeito hover nos botões
+✔️ Galeria de fotos
+✔️ Um slider/carrossel com fotos de doces

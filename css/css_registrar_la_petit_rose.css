@@ -1,0 +1,121 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Cores e estética inspiradas na doceria */
+body {
+    background: #fff4f7;
+    color: #5e2a3c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Cabeçalho simples com botão de voltar */
+.cabecalho {
+    width: 100%;
+    background-color: #f8d7e2;
+    padding: 12px 20px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.link_do_cabecalho {
+    color: #5e2a3c;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link_do_cabecalho:hover {
+    color: #a94563;
+}
+
+/* Container geral do formulário */
+.container-de-registro {
+    background-color: #FFF1E6;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container-de-registro h1 {
+    margin-bottom: 24px;
+    font-size: 28px;
+    color: #a94563;
+}
+.container-de-registro img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.container-de-registro h2 {
+    font-size: 20px;
+    color: #5e2a3c;
+    margin-bottom: 16px;
+}
+/* Formulário em si */
+.formulario-de-registro form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.formulario label {
+    font-size: 14px;
+    text-align: left;
+    color: #5e2a3c;
+}
+
+.formulario input {
+    padding: 12px;
+    border: 1px solid #e7c1cc;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.formulario input:focus {
+    outline: none;
+    border-color: #d48ca2;
+    box-shadow: 0 0 0 2px rgba(212, 140, 162, 0.2);
+}
+
+/* Botão de registro */
+.formulario button {
+    padding: 12px;
+    background-color: #a94563;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+    background-color: #8a3a52;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .container-de-registro {
+        padding: 30px 20px;
+    }
+
+    .formulario input,
+    .formulario button {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conta La Petit Rose - Login">
+    <link rel="stylesheet" href="css/css_conta_la_petit_rose.css">
+    <link rel="icon" href="assets/images/rose.png" type="image/png">
+    <title>La Petit Rose | Conta</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html" class="link_do_cabecalho">Voltar</a>
+    </header>
+    <!--Container mãe de login-->
+
+       <div class="container-de-registro">
+        <img src="assets/images/rose.png" alt="Logo La Petit Rose" class="logo-rose">
+        <!--Título do registro-->
+        <h1>La Petit Rose</h1>
+        <h2>Seja bem vindo! Faça o Login na sua conta!</h2>
+        <div class="formulario-de-registro">
+            <form class="formulario" action="registrar.php" method="post">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="usuario">Nome de usuário:</label>
+                <input type="text" id="usuario" name="usuario" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <button type="submit">Registrar</button>
+            </form>
+        </div>
+        <div class="registrar">
+            <p class="texto-de-registro">Ainda não tem uma conta? <a href="registrar_la_petit_rose.html" class="link-de-registro">Registrar</a></p>
+            <div class="recuperar-senha">
+                <p class="texto-esqueci-senha">Esqueceu sua senha? <a href="recuperar_senha_la_petit_rose.html" class="link-senha-esquecida">Clique aqui</a></p>
+            </div>
+        </div>
+    <!--Javascript da área de login-->
+    <script src="javascript/java_script_conta_la_petit_rose.js"></script>
+</body>
+
+</html>

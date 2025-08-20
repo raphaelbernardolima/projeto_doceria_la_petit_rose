@@ -1,0 +1,341 @@
+/*====================
+    RESET UNIVERSAL
+====================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff1e6;
+  color: #6f2c2c;
+  font-family: 'playfair-display', sans-serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #a05252;
+}
+
+/*============================
+    BARRA DE NAVEGAÇÃO
+============================*/
+.barra-navegacao {
+  background-color: #f8e1e1;
+  border-bottom: 2px solid #d4a6a6;
+  padding: 10px 20px;
+}
+
+.barra-navegacao ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.barra-navegacao li {
+  display: inline;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+.barra-navegacao li a {
+  color: #a05252;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.barra-navegacao li:hover {
+  background-color: #f0c6c6;
+  border-radius: 15px;
+}
+
+.barra-navegacao a:hover {
+  color: #8b3a3a;
+}
+
+.barra-navegacao a:visited {
+  color: #6f2c2c;
+}
+
+.barra-navegacao a:active {
+  color: #5c1f1f;
+}
+
+/*============================
+        CABEÇALHO
+============================*/
+.cabecalho {
+  background-color: #f8e1e1;
+  color: #a05252;
+  text-align: center;
+  padding: 5px;
+}
+
+.cabecalho h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'playfair-display', serif;
+}
+
+.cabecalho img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.frase_de_destaque {
+  font-size: 30px;
+  color: #a05252;
+  margin-top: 10px;
+  font-style: italic;
+  font-family: 'playfair-display', serif;
+}
+
+/*============================
+       CONTEÚDO PRINCIPAL
+============================*/
+.imagem-sobre-nos-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.imagem-sobre-nos-container img {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.imagem-missao-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.imagem-equipe {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.paragrafo-frase-destaque {
+  font-size: 20px;
+  color: #6f2c2c;
+  margin-top: 10px;
+  font-family: 'playfair-display', serif;
+  margin-bottom: 20px;
+}
+
+.valor {
+  font-size: 18px;
+  color: #6f2c2c;
+  margin: 10px 0;
+  font-family: 'playfair-display', serif;
+}
+
+.valores-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.frase-nossa-historia {
+  font-size: 18px;
+  color: #6f2c2c;
+  margin: 10px 0;
+  font-family: 'playfair-display', serif;
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.conteudo-sobre-nos {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  font-family: 'playfair-display', serif;
+}
+.conteudo-missao{
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  font-family: 'playfair-display', serif;
+}
+.conteudo-localizacao {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  font-family: 'playfair-display', serif;
+}
+.conteudo-contato {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 800px;
+  font-family: 'playfair-display', serif;
+}
+/*============================
+        MAPA
+============================*/
+.mapa {
+  background-color: #f8e1e1;
+  color: #a05252;
+  text-align: center;
+  padding: 20px;
+}
+
+.mapa-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*============================
+        RODAPÉ
+============================*/
+.rodape {
+  background-color: #f8e1e1;
+  color: #a05252;
+  text-align: center;
+  padding: 10px;
+}
+
+.rodape a {
+  color: #a05252;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.rodape a:hover {
+  color: #8b3a3a;
+}
+
+.rodape p {
+  margin: 5px 0;
+  font-family: 'playfair-display', serif;
+}
+
+.redes_sociais {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.link_redes_sociais img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
+
+/* ===== Telas até 1024px - Tablets ===== */
+@media (max-width: 1024px) {
+  .cabecalho h1 {
+    font-size: 22px;
+    /* Adjust header font size */
+  }
+
+  .frase_de_destaque {
+    font-size: 28px;
+    /* Adjust highlight phrase font size */
+  }
+
+  .imagem-sobre-nos-container img,
+  .imagem-equipe {
+    width: 80%;
+    /* Adjust image width for tablets */
+  }
+
+  .paragrafo-frase-destaque {
+    font-size: 18px;
+    /* Adjust paragraph font size */
+  }
+
+  .valor {
+    font-size: 16px;
+    /* Adjust value font size */
+  }
+
+  .frase-nossa-historia {
+    font-size: 16px;
+    /* Adjust history phrase font size */
+  }
+}
+
+/* ===== Telas até 768px - Mobile ===== */
+@media (max-width: 768px) {
+  .cabecalho h1 {
+    font-size: 20px;
+    /* Adjust header font size */
+  }
+
+  .frase_de_destaque {
+    font-size: 24px;
+    /* Adjust highlight phrase font size */
+  }
+
+  .imagem-sobre-nos-container img,
+  .imagem-equipe {
+    width: 100%;
+    /* Full width for mobile */
+  }
+
+  .paragrafo-frase-destaque {
+    font-size: 16px;
+    /* Adjust paragraph font size */
+  }
+
+  .valor {
+    font-size: 14px;
+    /* Adjust value font size */
+  }
+
+  .frase-nossa-historia {
+    font-size: 14px;
+    /* Adjust history phrase font size */
+    padding: 0 10px;
+    /* Adjust padding for mobile */
+  }
+
+  .barra-navegacao li {
+    display: block;
+    /* Stack navigation items vertically */
+    margin-right: 0;
+    /* Remove right margin */
+    padding: 10px;
+    /* Adjust padding for touch interaction */
+  }
+
+  .barra-navegacao ul {
+    flex-direction: column;
+    /* Stack navigation items */
+    align-items: center;
+    /* Center items */
+  }
+
+  .rodape p {
+    font-size: 14px;
+    /* Adjust footer font size */
+  }
+
+  .link_redes_sociais img {
+    width: 25px;
+    /* Adjust social media icon size */
+    height: 25px;
+  }
+}
