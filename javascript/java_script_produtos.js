@@ -28,12 +28,27 @@ botaoLimpar.addEventListener("click", function () {
     });
 });
 
+//Código para funcionalidade de adicionar produtos ao carrinho
+const botaoDiminuirquantidade = document.querySelectorAll('.botao-quantidade');
+botaoDiminuirquantidade.forEach(botao => {
+  botao.addEventListener('click', () => {
+    const quantidadeElemento = botao.parentElement.querySelector('.quantidade');
+    let quantidade = parseInt(quantidadeElemento.textContent);
+    if (botao.textContent === '-' && quantidade > 0) {
+      quantidade--;
+    } else if (botao.textContent === '+') {
+      quantidade++;
+    }
+    quantidadeElemento.textContent = quantidade;
+  });
+});
+// Código para adicionar produtos ao carrinho e salvar no localStorage
 const BotaoComprar = document.querySelectorAll('.botao-comprar');
 
 botoesComprar.forEach(botao => {
   botao.addEventListener('click', () => {
     const nome = botao.parentElement.querySelector('.card-produto').textContent;
-    
+    const preco = botao.parentElement.querySelector('.preco').textContent;
     // Recupera carrinho já existente ou cria novo
     let carrinho = JSON.parse(localStorage.getItem('carrinho')) || {};
 

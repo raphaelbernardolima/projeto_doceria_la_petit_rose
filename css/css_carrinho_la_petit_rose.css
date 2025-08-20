@@ -92,6 +92,24 @@ h1, h2, h3, p {
 
 
 
+
+/*============================
+          Carrinho
+============================*/
+.div-mae-do-carrinho {
+  background-color: #f0c6c6;
+  color: #a05252;
+  padding: 20px;
+  text-align: center;
+}
+#botao-finalizar-compra {
+  background-color: #a05252;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 /*============================
           RODAPÉ
 ============================*/
